@@ -1,0 +1,55 @@
+body {
+    font-family: cursive;
+    font-size: 1rem;
+    color: pink;
+    max-width: 980px;
+    background-color: #0c1a30;
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0 auto;
+}
+
+.page-wrapper  {
+    position: relative;
+    background: url(http://www.powerpointbackground.net/wp-content/uploads/2016/03/dark-brick-wall-background.jpg) repeat-y;
+}
+
+section, .explanation {
+    position: relative;
+    margin-left: 220px;
+}
+
+aside {
+    position: absolute;
+    top: 0;
+    width: 205px;
+    border: 2px solid pink;
+}
+
+footer {
+    height: 40px;
+    text-align: center;
+}
+
+header,h1,h2,h3 {
+    text-align: center;
+}
+
+a:link { 
+    color: #0033ff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+@media (max-width: 480px) {
+    aside {
+        text-align: left;
+        position: static;
+        width: 100%
+    }
+    
+    section, .explanation {
+    margin-left: 5px;
+    padding: 10px;
+    }
+}
